@@ -2,6 +2,6 @@
 #8-31-17
 #tipCalculator.py
 
-dollars = int(input('Price of Meal (in dollars): '))
-tip = int(input('% to tip: '))
-print('You should tip', (dollars*tip)/100, 'dollars')
+dollars = float(input('Price of Meal (in dollars): '))
+tip = float(input('% to tip: '))
+print('You should tip', round((dollars*tip)/100, 2), 'dollars')
