@@ -4,5 +4,4 @@
 
 eggnum = int(input('Input number of eggs: '))
 cartnum = int(input('Input number of cartons: '))
-cartonreal = eggnum // 12 +1
-print(cartonreal == cartnum)
+print(eggnum <= cartnum*12)
