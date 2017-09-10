@@ -1,6 +1,6 @@
 #Diego Aspinwall
 #9-8-17
-#binary.py
+#binary.py - converts any 8-digit binary number to base 10, I added a base-10 to binary number to check
 
 digfull = int(input('Enter an 8-digit binary number: '))
 dig8 = (digfull%10)*2**0
